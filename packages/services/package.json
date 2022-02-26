@@ -1,0 +1,17 @@
+{
+  "name": "@parrot/services",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@parrot/config": "^1.0.0",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^5.11.13"
+  }
+}
