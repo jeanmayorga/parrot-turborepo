@@ -14,5 +14,9 @@ export default function Index() {
     }
   }, [isAuthenticated, router]);
 
-  return <div className="text-white">is loading..</div>;
+  return (
+    <div className="text-white h-screen flex items-center justify-center">
+      loading
+    </div>
+  );
 }
