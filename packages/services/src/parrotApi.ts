@@ -3,7 +3,7 @@ import { env } from "@parrot/config";
 import { ApiError } from "./interface";
 
 export const parrotApi = axios.create({
-  baseURL: "http://api-staging.parrot.rest/api",
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
   headers: {
     "Content-Type": "application/json",
   },
